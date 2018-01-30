@@ -1,4 +1,4 @@
-In this project I attempted to create a backup avionics device ("Artificial horizon") based on a microcontroller (Freedom board FRDM-KL46Z), a Motion Trackig device that combines a 3-axis gyroscope, 3-axis accelerometer, and a Digital Motion Processor™ (InvenSense MPU-6050), and a simple 1.8-inches LCD monitor with SPI interface. 
+In this project I created a prototype of a backup avionics device ("Artificial horizon") based on a microcontroller (Freedom board FRDM-KL46Z), a Motion Trackig device that combines a 3-axis gyroscope, 3-axis accelerometer, and a Digital Motion Processorâ„¢ (InvenSense MPU-6050), and a simple 1.8-inches LCD monitor with SPI interface. 
 The code is written in C. 
 The raw data has been read from MPU-6050 through I2C interface, processed with complementary filter, and then displayed on an LCD through SPI interface. The GUI of the project imitates the behavior of a real "Artificial horizon" device with respect to the roll and pitch angles of an aircraft. 
 
